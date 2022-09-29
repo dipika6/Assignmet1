@@ -1,12 +1,12 @@
 pipeline { 
       agent {
 	      label {
-		      label '172.31.38.107_slave2'
+		      label '172.31.36.46_slave3'
 		      
 	      }
 	  }
 	  stages {
-	         stage ('slave2') {
+	         stage ('slave3') {
 			   steps {
 			 sh "sudo yum install git -y"
 		     sh "sudo yum install httpd -y"
